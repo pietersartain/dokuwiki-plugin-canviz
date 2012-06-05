@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin canviz: allow the use of graphviz syntax directly in wiki pages.
+ * Canviz demo plugin: a tech demo showing how you could use graphviz directly in wiki pages.
  * 
  * @license    GPL 2 (http://www.gnu.org/licenses/gpl.html)
  * @author     Pieter E Sartain <pesartain@googlemail.com>
@@ -26,7 +26,7 @@ class syntax_plugin_canviz extends DokuWiki_Syntax_Plugin {
           'author' => 'Pieter E Sartain',
           'email'  => 'pesartain@googlemail.com',
           'date'   => '2009-06-28',
-          'name'   => 'Canviz plugin',
+          'name'   => 'Canviz demo plugin',
           'desc'   => 'Allows graphviz to be directly embedded into wiki pages',
           'url'    => '',
       );

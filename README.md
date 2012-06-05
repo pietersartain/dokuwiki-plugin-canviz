@@ -4,7 +4,9 @@ This is a demonstration of how you could create a plugin to leverage canviz for 
 
 I never had a real need, so I never finished it. I'm releasing it now as a tech demo. Obvious improvements/todos include:
 
-* Configuration settings for the graphviz binaries 
+* Configuration settings for the graphviz binaries location.
+* onload library calls rather than click to display.
+* CSS to correctly place the graphics and properly embed them inline with the text.
 
 ## Prerequisites
 
@@ -15,7 +17,8 @@ I never had a real need, so I never finished it. I'm releasing it now as a tech 
 ## Installation
 
 * Clone this repo or otherwise unpack this plugin into your dokuwiki plugins directory. It should be called "canviz".
-* Copy [Canviz][canviz]
+* Copy [Canviz][canviz] into the root directory of the plugin.
+* Done.
 
 ## Usage
 
